@@ -1,85 +1,81 @@
 <!DOCTYPE html>
 <html>
-    <Style>
-        h2{
-            color:aqua
-        }
-        table{
-            background-color: bisque; 
-        }
-        .oldest{
-            color: red; font-style: italic;
-        }
-        #newest{
-            color: blue; font-style: italic;
-        }
-        li{
-            color: aqua;
-        }
-    </Style>
-    <head>
-        <title>Middleware Software</title>
-    </head>
-    <body>
+
+<head>
+    <title>Middleware Software</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+ </head>
+
+
+<body>
+    <div class="header">
         <h2>Middleware Software</h2>
+    </div>
+    <div class="main">
         <p>
             <ul>
-                <li class="oldest">Remote Procedure Call</li>
+                
+                <li class="oldest"><a href="Remote Procedure Call.html">Milestone 1</a></li>
                 <ul>
-                    <li> <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.linkedin.com%2Fpulse%2Fremote-procedure-calls-rpc-umang-agarwal&psig=AOvVaw3yshPVWsDpCYjN2O80iQY6&ust=1693486494822000&source=images&cd=vfe&opi=89978449&ved=0CA0QjRxqFwoTCJja8vq2hIEDFQAAAAAdAAAAABAD"></li>
+                    <li><img src="valid_image_url_here"></li>
                 </ul>
-                <li>Common Object Request Broker Architecture</li>
+                <li><a href="Common Object Request Broker Architecture.html">Milestone 2</a></li>
                 <ul>
-                    <li><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nyu.edu%2Fclasses%2Fjcf%2Fg22.3033-007%2Fhandouts%2Fg22_3033_011_h41.htm&psig=AOvVaw1yIqJhvbAhl9IBBOSft0T6&ust=1693486688547000&source=images&cd=vfe&opi=89978449&ved=0CA0QjRxqFwoTCIiI-tm3hIEDFQAAAAAdAAAAABAD"></li>
+                    <li><img src="valid_image_url_here"></li>
                 </ul>
-                <li>Java Remote Method Invocation</li>
+                <li><a href="Java Remote Method Invocation.html">Milestone 3</a></li>
                 <ul>
-                    <li><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.geeksforgeeks.org%2Fremote-method-invocation-in-java%2F&psig=AOvVaw2gV8s9CcV2N-h7orz-TJ4_&ust=1693486869567000&source=images&cd=vfe&opi=89978449&ved=0CA0QjRxqFwoTCIDt7a-4hIEDFQAAAAAdAAAAABAE"></li>
+                    <li><img src="valid_image_url_here"></li>
                 </ul>
-                <li>Web Services and Simple Object Access Protocol </li>
+                <li><a href="Web Services and Simple Object Access Protocol.html">Milestone 4</a></li>
                 <ul>
-                    <li><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fblogs.mulesoft.com%2Fdev-guides%2Fapis-versus-web-services%2F&psig=AOvVaw02ZYh9rr7RjYv1aOJlrou4&ust=1693487829166000&source=images&cd=vfe&opi=89978449&ved=0CA0QjRxqFwoTCPCH1fa7hIEDFQAAAAAdAAAAABAD" width="100px" height="100px"></li>
+                    <li><img src="valid_image_url_here" width="100px" height="100px"></li>
                 </ul>
-                <li id="newest">Message-Oriented Middleware</li>
+                <li id="newest"><a href="Web Services and Simple Object Access Protocol.html">Milestone 5</a></li>
+                    <li><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fdocs.oracle.com%2Fcd%2FA97335_02%2Fintegrate.102%2Fa90297%2Foverview.htm&psig=AOvVaw0PQ4BJjeKCs8gKWAUt3OjC&ust=1695474468486000&source=images&cd=vfe&opi=89978449&ved=0CA0QjRxqFwoTCMiJmN6kvoEDFQAAAAAdAAAAABAD"</li>
             </ul>
-        </p>    
+        </p>
         <p>
-            <a href="https://aws.amazon.com/what-is/middleware/#:~:text=Middleware%20is%20software%20that%20different,that%20you%20can%20innovate%20faster."</a>
-            <img src="https://blog.briteskies.com/hs-fs/hub/347829/file-2413293008-png/blog-images/middleware-comparison.png" width="150" height="150" >
+            <a href="https://aws.amazon.com/what-is/middleware/#:~:text=Middleware%20is%20software%20that%20different,that%20you%20can%20innovate%20faster.">
+                <img src="https://blog.briteskies.com/hs-fs/hub/347829/file-2413293008-png/blog-images/middleware-comparison.png" width="150" height="150">
+            </a>
         </p>
         <p>
             <h2>Middleware Software Information</h2>
-
-            <table border="2"; style="width:50%">
-            <tr>
-                <th>Name</th>
-                <th>Description</th>
-                <th>Type</th>
-                <th>Advantages</th>
-                <th>Examples</th>
-            </tr>
-            <tr>
-                <td>Remote Procedure Call (RPC)</td>
-                <td>Enables executing functions on remote servers as if they were local.</td>
-                <td>Communication Middleware</td>
-                <td>Simplifies remote communication, abstracts network complexities.</td>
-                <td>ONC RPC, Java RMI</td>
-            </tr>
-            <tr>
-                <td>CORBA (Common Object Request Broker Architecture)</td>
-                <td>Standardizes communication between distributed objects across languages.</td>
-                <td>Middleware Platform</td>
-                <td>Supports interoperability, language independence.</td>
-                <td>OMNIORB, JacORB</td>
-            </tr>
-            <tr>
-                <td>Message-Oriented Middleware (MOM)</td>
-                <td>Facilitates asynchronous communication using messages/events.</td>
-                <td>Messaging Middleware</td>
-                <td>Loose coupling, reliability, scalability.</td>
-                <td>Apache Kafka, RabbitMQ</td>
-            </tr>
+            <table border="2" style="width:50%">
+                <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Type</th>
+                    <th>Advantages</th>
+                    <th>Examples</th>
+                </tr>
+                <tr>
+                    <td>Remote Procedure Call (RPC)</td>
+                    <td>Enables executing functions on remote servers as if they were local.</td>
+                    <td>Communication Middleware</td>
+                    <td>Simplifies remote communication, abstracts network complexities.</td>
+                    <td>ONC RPC, Java RMI</td>
+                </tr>
+                <tr>
+                    <td>CORBA (Common Object Request Broker Architecture)</td>
+                    <td>Standardizes communication between distributed objects across languages.</td>
+                    <td>Middleware Platform</td>
+                    <td>Supports interoperability, language independence.</td>
+                    <td>OMNIORB, JacORB</td>
+                </tr>
+                <tr>
+                    <td>Message-Oriented Middleware (MOM)</td>
+                    <td>Facilitates asynchronous communication using messages/events.</td>
+                    <td>Messaging Middleware</td>
+                    <td>Loose coupling, reliability, scalability.</td>
+                    <td>Apache Kafka, RabbitMQ</td>
+                </tr>
+            </table>
         </p>
-
-                </body>
+    </div>
+    <div class="footer">
+        <p>Want more info?<a href="https://en.wikipedia.org/wiki/Main_Page">Here</a></p>
+    </div>
+</body>
 </html>

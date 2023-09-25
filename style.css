@@ -1,0 +1,41 @@
+
+        h2 {
+            color: aqua;
+        }
+        table {
+            background-color: bisque;
+        }
+        .oldest {
+            color: red;
+            font-style: italic;
+        }
+        #newest {
+            color: blue;
+            font-style: italic;
+        }
+        li {
+            color: aqua;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        li a {
+            text-decoration: none;
+            color: blue;
+        }
+        
+        li a:hover {
+            color: red;
+        }
+        .header{
+            color: red; font-size: 40px; font-family: fantasy; text-align: center;
+        }
+        .footer {
+            font-size: 11px;
+        }
+        .main {
+           text-align: center; 
+        }
+        

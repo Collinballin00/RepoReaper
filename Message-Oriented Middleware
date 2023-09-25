@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <head>
+            <title>Milestone 3</title>
+            <a href="index.html">Home</a>
+        </head>
+    <div class="header">
+            <h1>Message-Oriented Middleware (MOM)</h1>
+    </div>   
+        <body>     
+            <p>Message-Oriented Middleware (MOM) is a software component used in distributed systems to facilitate asynchronous communication between various applications. It relies on the exchange of messages or events to enable loosely coupled and scalable interactions, making it ideal for scenarios where reliability and flexibility in communication are crucial.</p>
+            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.guru99.com%2Fremote-procedure-call-rpc.html&psig=AOvVaw1mrR1YJcAapO8zHFK512iA&ust=1695471496568000&source=images&cd=vfe&opi=89978449&ved=0CA0QjRxqFwoTCMCPjdSZvoEDFQAAAAAdAAAAABAE" height="95px"; width="95px">
+        </body>
+    </div>
+    <div class="footer">
+        <p>
+            Want more info?
+            <a href="https://en.wikipedia.org/wiki/Common_Object_Request_Broker_Architecture"></a>
+        </p>
+    </div>
+    
+</html>
