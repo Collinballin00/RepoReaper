@@ -1,25 +1,84 @@
 <!DOCTYPE html>
-    <html>
-    <head>
-        <title>Milestone 1</title>
-        <a href="index.html">Home</a>
-        <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
-      
-    <div class="header">
-        <h1>Remote Procedure Calls(RPC)</h1>
-    </div>
-    <div>    
-        <body> 
-            <p>Remote Procedure Calls (RPC) are a mechanism in distributed computing that allow a program to execute code on a remote server as if it were a local function call. They enable seamless communication between distributed systems, abstracting away the complexities of network communication and providing a convenient way to invoke procedures on remote machines.</p>
-            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.guru99.com%2Fremote-procedure-call-rpc.html&psig=AOvVaw1mrR1YJcAapO8zHFK512iA&ust=1695471496568000&source=images&cd=vfe&opi=89978449&ved=0CA0QjRxqFwoTCMCPjdSZvoEDFQAAAAAdAAAAABAE" height="95px"; width="95px">
-        </body>
-    </div>
-    <div class="footer">
-        <p>
-            Want more info?
-            <a href="https://en.wikipedia.org/wiki/Remote_procedure_call"></a>
-        </p>
-    </div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milestone 1</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
     
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Home</a>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Middleware Software</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Remote Procedure Call.html">Milestone 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Common Object Request Broker Architecture.html">Milestone 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Java Remote Method Invocation.html">Milestone 3</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Web Services and Simple Object Access Protocol.html">Milestone 4</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Web Services and Simple Object Access Protocol.html">Milestone 5</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Content Container -->
+    <div class="container mt-4">
+        <!-- Header -->
+        <div class="header text-center">
+            <h1>Remote Procedure Calls (RPC)</h1>
+        </div>
+
+        <!-- Bootstrap Form -->
+        <form>
+            <!-- Form Group for Description -->
+            <div class="form-group">
+                <label for="description">Description</label>
+                <textarea class="form-control" id="description" rows="4" readonly>
+                    Remote Procedure Calls (RPC) are a mechanism in distributed computing that allow a program to execute
+                    code on a remote server as if it were a local function call. They enable seamless communication between
+                    distributed systems, abstracting away the complexities of network communication and providing a
+                    convenient way to invoke procedures on remote machines.
+                </textarea>
+            </div>
+
+            <!-- Form Group for Image -->
+            <div class="form-group">
+                <label for="rpcImage">RPC Image</label>
+                <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.guru99.com%2Fremote-procedure-call-rpc.html&psig=AOvVaw1mrR1YJcAapO8zHFK512iA&ust=1695471496568000&source=images&cd=vfe&opi=89978449&ved=0CA0QjRxqFwoTCMCPjdSZvoEDFQAAAAAdAAAAABAE"
+                    class="img-fluid" alt="RPC Image" height="95" width="95">
+            </div>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer text-center mt-4">
+        <p>Want more info? <a href="https://en.wikipedia.org/wiki/Remote_procedure_call" target="_blank">Here</a></p>
+    </div>
+
+    <!-- Include Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
